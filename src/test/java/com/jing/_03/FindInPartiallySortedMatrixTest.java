@@ -1,0 +1,19 @@
+package com.jing._03;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class FindInPartiallySortedMatrixTest {
+
+    @Test
+    public void testFind() {
+        Integer[][] array = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
+        Assert.assertTrue(FindInPartiallySortedMatrix.find(array, 1));
+        Assert.assertTrue(FindInPartiallySortedMatrix.find(array, 7));
+        Assert.assertTrue(FindInPartiallySortedMatrix.find(array, 15));
+        Assert.assertFalse(FindInPartiallySortedMatrix.find(array, -1));
+        Assert.assertFalse(FindInPartiallySortedMatrix.find(array, 5));
+        Assert.assertFalse(FindInPartiallySortedMatrix.find(array, 16));
+        Assert.assertFalse(FindInPartiallySortedMatrix.find(array, null));
+    }
+}

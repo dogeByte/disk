@@ -85,7 +85,7 @@ public class BuildBinaryTreeTest {
     // 空指针
     @Test
     public void testRebuild_Null() {
-        Assert.assertEquals(BuildBinaryTree.rebuild(null, null), null);
+        Assert.assertNull(BuildBinaryTree.rebuild(null, null));
     }
 
     // 前序序列和中序序列长度不同

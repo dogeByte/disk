@@ -40,7 +40,7 @@ public class MinInRotatedArrayTest {
     // 空指针
     @Test
     public void testGetMin_Null() {
-        Assert.assertEquals(null, MinInRotatedArray.getMin(null));
+        Assert.assertNull(MinInRotatedArray.getMin(null));
     }
 
 }

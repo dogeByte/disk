@@ -1,11 +1,11 @@
-package com.jing._05;
+package com.jing._15;
 
 /**
  * 单向链表的节点
  * 
  * @version 1.0.0
  * @author  JingBo
- * @see     PrintListReversingly
+ * @see     LastKthNode
  */
 
 public class Node<T> {

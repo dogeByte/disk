@@ -1,17 +1,20 @@
-package com.jing._05;
+package com.jing._17;
 
 /**
  * 单向链表的节点
  * 
  * @version 1.0.0
  * @author  JingBo
- * @see     PrintListReversingly
+ * @see     MergeSorterList
  */
 
 public class Node<T> {
 
     private T value;
     private Node<T> next;
+
+    public Node() {
+    }
 
     public Node(T value, Node<T> next) {
         this.value = value;

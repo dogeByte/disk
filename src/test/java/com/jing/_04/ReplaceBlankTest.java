@@ -38,7 +38,7 @@ public class ReplaceBlankTest {
     // 空指针
     @Test
     public void testReplace_Null() {
-        Assert.assertEquals(null, ReplaceBlank.replace(null));
+        Assert.assertNull(ReplaceBlank.replace(null));
     }
 
     // 空字符串

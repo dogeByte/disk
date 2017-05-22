@@ -17,7 +17,7 @@ public class MirrorOfBinaryTree {
         }
         Node<T> left = head.getLeft();
         Node<T> right = head.getRight();
-        if (head.getLeft() == null && head.getRight() == null) {
+        if (left == null && right == null) {
             return head;
         }
         head.setLeft(mirrorRecursively(right));
